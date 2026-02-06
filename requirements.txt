@@ -1,0 +1,9 @@
+streamlit
+feedparser
+google-generativeai
+openai
+beautifulsoup4
+duckduckgo-search
+json_repair
+gTTS
+requests
