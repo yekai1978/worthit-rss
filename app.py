@@ -18,9 +18,7 @@ import concurrent.futures
 st.set_page_config(page_title="WorthIt V3.0 完美收官", page_icon="🦁", layout="wide")
 
 # 端口配置
-PROXY_PORT = "3067"
-os.environ["http_proxy"] = f"http://127.0.0.1:{PROXY_PORT}"
-os.environ["https_proxy"] = f"http://127.0.0.1:{PROXY_PORT}"
+
 
 # 读取密钥
 GEMINI_KEY = st.secrets.get("GEMINI_API_KEY", "")
